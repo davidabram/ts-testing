@@ -1,0 +1,19 @@
+{
+  "$schema": "https://sce.crocoder.dev/v0.4.0-pre-alpha-v11/config.json",
+  "agent_trace": {
+    "auto_sync": false
+  },
+  "integrations": {
+    "optional_workflows": [
+      "brownfield"
+    ],
+    "target": [
+      "claude"
+    ]
+  },
+  "policies": {
+    "attribution_hooks": {
+      "enabled": false
+    }
+  }
+}
